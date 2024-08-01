@@ -27,30 +27,37 @@
   padding: 0;
   margin: 0;
   width: 100vw;
-  height: 6vh;
+  height: 7vh;
   background-color: #000000;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navMenu {
-  text-align: left;
-  width: 100%;
-  position: relative;
-  top: 0;
-  left: 0;
+  display: flex;
+}
+
+.nav {
+  display: flex;
 }
 
 .nav a {
+  box-sizing: border-box;
   text-decoration: none;
   font-weight: bold;
   color: #ffffff;
-  margin: 0px;
-  border-right: solid 1px #dfb81b;
-  padding: 10px 15px;
+  margin: 0;
+  padding: 1.9vh 2.4vw;
+  display: flex;
+  align-items: center;
+  height: 7vh;
   z-index: 1001;
+  box-shadow: 1px 0 0 0 #dfb81b;
 }
 
 .nav a:hover {
@@ -61,12 +68,17 @@
   color: #42b983;
 }
 
+.navTitle {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
 .navTitle p {
   color: #ffffff;
   z-index: 1001;
-  position: relative;
   text-align: center;
   font-weight: bold;
-  margin-top: 9.6px; 
+  margin: 0;
 }
 </style>
