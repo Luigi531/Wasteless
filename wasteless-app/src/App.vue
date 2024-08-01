@@ -2,7 +2,7 @@
   <div class="navBar">
     <div class="navMenu">
       <nav class="nav">
-        <router-link :to="{ name: 'accueil' }">Accueil</router-link> 
+        <router-link :to="{ name: 'acceuil' }">Acceuil</router-link> 
         <router-link :to="{ name: 'stocks' }">Stock</router-link> 
         <router-link :to="{ name: 'repas' }">Repas</router-link> 
       </nav>
