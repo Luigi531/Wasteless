@@ -24,17 +24,21 @@
 }
 
 .navBar {
-  width: 100%;
-  position: relative;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 6vh;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
   z-index: 1000;
 }
 
 .navMenu {
-  padding: 9.64px 0px;
-  background-color: #000000;
   text-align: left;
   width: 100%;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
 }
