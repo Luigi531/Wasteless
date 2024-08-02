@@ -3,10 +3,10 @@
 
   </div>
   <div class="expiration">
-
+    
   </div>
   <div class="dishOffer">
-
+    
   </div>
 </template>
 
@@ -35,6 +35,7 @@ export default {
   padding: 0;
   width: 25vw;
   height: 73.958574vh;
+  overflow: auto;
   background-color: #e88711
 }
 .dishOffer {
@@ -45,6 +46,7 @@ export default {
   padding: 0;
   width: 75vw;
   height: 73.958574vh;
+  overflow: auto;
   background-color: #ff008c
 }
 
