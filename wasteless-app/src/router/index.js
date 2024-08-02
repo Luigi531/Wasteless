@@ -5,7 +5,7 @@ import Repas from '../views/Repas.vue'
 
 const routes = [
   {
-    path: '/acceuil',
+    path: '/',
     name: 'acceuil',
     component: Home
   },
